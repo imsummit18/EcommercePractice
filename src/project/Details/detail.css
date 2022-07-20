@@ -1,0 +1,103 @@
+.contact{
+    height: 50vh;
+    /* background-color: crimson; */
+    display: flex;
+margin: 15px;
+width: 100vw;
+}
+.person-info{
+    width: 33%;
+    text-align: justify;
+  
+    padding-right: 60px;
+}
+.person-info a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.person-info a:hover{
+    color:teal;
+}
+.person-info p{
+    margin: 20px 0;
+    line-height: 1.3rem;
+}
+.social-icons{
+    margin-left: 30px;
+    width: 200px;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.social-icons {
+    /* color: red; */
+    transition: 0.4s linear;
+}
+.social-icons a:hover{
+    transform: scale(1.1);
+}
+.social-icons .youtube,.instagram,.twitter{
+    background-color: #4286f4;
+    padding: 5px;
+    height: 35px;
+    width:35px;
+    border-radius: 50px;
+    color: white;
+}
+.instagram{
+    background-color: crimson;
+}
+.twitter{
+    background-color:  #00acee;
+}
+
+.useful-links{
+    width: 33%;
+}
+.detail-contact{
+    width: 33%;
+}
+
+
+
+.link-container{
+    display: flex;
+    justify-content: space-around;
+}
+.useful-links h3{
+ margin-left: 40px;
+}
+
+
+.side{
+    margin-top: 30px;
+}
+.side a{ 
+    text-decoration: none;
+    color: black;
+}
+.side a p:hover{
+    color: teal;
+}
+.side a p{
+
+margin-top: 10px;
+}
+.contact-container{
+    margin-top: 30px;
+}
+.contact-container p{
+    margin-top: 20px;
+}
+.contact-container img{
+    
+    margin-top: 30px;
+    cursor: pointer;
+    /* transition: 0.4s linear; */
+}
+/* .contact-container img:hover{
+    transform: scale(1.1);
+} */
+

@@ -1,0 +1,72 @@
+.register{
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url("https://images.pexels.com/photos/6984661/pexels-photo-6984661.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+    /* background-position: center; */
+    height:calc( 100vh - 100px);
+    width: 100vw;
+    padding-top: 80px;
+    padding-left: 380px;
+    
+    overflow:hidden;
+}
+.register:hover{
+    color: black;
+}
+.register-input{
+    background-color: white;
+    width: 600px;
+    height: 400px;
+    padding: 20px;
+}
+.register-title h1{
+    font-weight: 300;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.form-input input{
+    padding: 8px;
+    width: 250px;
+    margin: 0 30px 20px 0px;
+    border: 1px solid grey;
+    outline: none;
+}
+.form-input input:focus{
+    border: 1px solid teal;
+}
+.register-desc{
+    font-size: 14px;
+    letter-spacing: normal;
+}
+.register-desc a{
+    text-decoration: none;
+}
+.register-desc a strong:hover{
+    transform: scale(1.2);
+    font-weight: 500;
+}
+  
+strong{
+    color: teal;
+}
+
+.create-register{
+    margin-top: 30px;
+    color: white;
+    background-color: teal;
+border: none;
+outline: none;
+font-size: 14px;
+width: 150px;
+padding: 10px;
+letter-spacing: 1.2px;
+transition: 0.2s linear;
+}
+.create-register:hover{
+    background-color: grey;
+color: black;
+}
+

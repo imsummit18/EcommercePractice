@@ -1,0 +1,51 @@
+.log-in{
+    background: linear-gradient(
+       rgba(255, 255, 255, 0.5),
+       rgba(255, 255, 255, 0.5)
+     ),
+     url("https://images.pexels.com/photos/6984650/pexels-photo-6984650.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); 
+
+       width: 100vw;
+       background-size: cover;
+             height: calc(100vh - 100px);
+       padding-top: 150px;
+       padding-left: 500px;
+}
+.login-container{
+   background-color: white;
+   width: 400px;
+   height: 350px;
+   padding: 20px;
+}
+.login-title h1{
+   font-weight: 300;
+
+}
+.login-input input{
+   display: block;
+   padding: 8px;
+   width: 100%;
+   margin: 20px 0px 0px 0px;
+   border: 1px solid grey;
+   outline: none;
+}
+.login-input input:focus{
+   border: 1px solid teal;
+}
+.btn-register{
+   margin-bottom: 20px;
+}.forget-pass a ,.create-new a{
+   text-decoration: none;
+   color: black;
+   font-size: 14px;
+   letter-spacing: normal;
+   transition: 0.2s linear;
+
+}
+.forget-pass a:hover ,.create-new a:hover{
+color: teal;
+border-bottom: 1px solid black;
+}
+
+
+

@@ -1,0 +1,40 @@
+.single_item-detail{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.person-Img{
+    width: 300px;
+    margin-right: 100px;
+    border-radius: 10px;
+}
+.single-title{
+    font-size: 40px;
+}
+.order-detail{
+    display: flex;
+    flex-direction: column;
+}
+.btn-order-single{
+    width: 150px;
+}
+
+.slider-single-item{
+    display: flex;
+    justify-content: center;
+}
+.slider-product-detail{
+    display: flex;
+    margin-top: 120px;
+    flex-direction: column;
+}
+.slider-single-img{
+    margin-top: 50px;
+    width: 400px;
+    height: 400px;
+    margin-right: 100px;
+}
+.slider-single-title{
+    font-size: 40px;
+}

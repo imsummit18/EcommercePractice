@@ -1,0 +1,58 @@
+.category{
+    height: 80vh;
+    background-color: white;
+    /* background-color: crimson; */
+    /* margin-top: 10px; */
+    width: 80vww;
+    overflow: hidden;
+    display: flex;
+    margin-left: 30px;
+   
+}
+
+.category-item{
+    display: flex;
+   /* width:100vw; */
+
+   margin:20px;
+   /* overflow: hidden; */
+}
+.category-person{
+    width: 400px;
+    margin-right: 25px;
+    height: 490px;
+}
+.category-container{
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s linear;
+   
+}
+.category-container:hover{
+    transform: scale(1.1);
+}
+.text-center{
+    position: absolute;
+    top: 43%;
+    text-align: center;
+    left: 17%;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+}
+.btn-shop{
+    background-color: white;
+border: none;
+outline: none;
+padding: 9px 5px;
+width: 100px;
+color: black;
+transition: 0.4s linear;
+}
+.btn-shop:hover{
+    background-color: teal;
+    color: white;
+}
+
+
+
